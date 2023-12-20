@@ -10,7 +10,7 @@ const App = () => {
   }
   return (
     <div>
-      <label>Enter your name:</label> <br/>
+      <p>Enter your name:</p> <br/>
         <input type="text" onChange={show} id="user"/>
         {
           name!="" && <p>Hello {name}!</p>
